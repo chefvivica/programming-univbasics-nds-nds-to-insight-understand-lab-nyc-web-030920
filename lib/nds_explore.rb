@@ -11,14 +11,22 @@ end
 
 
 def print_first_directors_movie_titles
-#     inner = directors_database[0][:moives]
-#     i = 0 
-#     while i < inner.length do 
-#       titles = inner[i][:title]
-#       print titles 
-#       i += 1
-#     end 
-# end 
+    inner = directors_database[0][:movies]
+    i = 0 
+    while i < inner.length do 
+      titles = inner[i][:title]
+      print titles 
+      i += 1
+    end 
+end 
 
 
+#   ss_movies = directors_database[0][:movies]
+#   index = 0
 
+#   while index < ss_movies.length do
+#     titles = ss_movies[index][:title]
+#     puts titles
+#     index +=1
+#   end
+# end
