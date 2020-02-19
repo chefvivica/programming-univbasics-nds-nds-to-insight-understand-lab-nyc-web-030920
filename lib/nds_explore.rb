@@ -9,7 +9,7 @@ def pretty_print_nds(nds)
   pp nds
 end
 
-puts directors_database
+
 def print_first_directors_movie_titles
     inner = []
     inner = directors_database[0][:moives]
