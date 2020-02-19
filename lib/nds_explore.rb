@@ -11,7 +11,7 @@ end
 
 
 def print_first_directors_movie_titles
-    movies = directors_database[0][:moives]
+    movies = directors_database[0][:moive]
     i = 0 
     while i < moives.length do 
       titles = moives[i][:title]
