@@ -17,7 +17,7 @@ def print_first_directors_movie_titles
     
     while i < inner.length do 
       titles = inner[i][:title]
-      puts titles 
+      print titles 
       i += 1
     end 
 end 
