@@ -11,10 +11,10 @@ end
 
 
 def print_first_directors_movie_titles
-    imovies = directors_database[0][:moives]
+    inner = directors_database[0][:moives]
     i = 0 
-    while i < imoives.length do 
-      titles = imoives[i][:title]
+    while i < inner.length do 
+      titles = inner[i][:title]
       puts titles 
       i += 1
     end 
